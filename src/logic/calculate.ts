@@ -49,6 +49,7 @@ export interface State {
 function isNumberButton(button: string): button is NumberCode {
   // button is NumberCode の部分は型ガード(trueを返すと引数のbuttonはNumberCodeであると伝えることができる)
   return (
+    button === "0" ||
     button === "1" ||
     button === "2" ||
     button === "3" ||
@@ -111,7 +112,7 @@ function isDotButton(button: string) {
   return button === ".";
 }
 function handleDotButton(state: State): State {
-  // 何度もドットボタンを連打した際、ドッドが繋がるのを防止するため、今どっとがあるかを調べる
+  // 何度もドットボタンを連打した際、ドッドが繋がるのを防止するため、今ドットがあるかを調べる
   if (state.current.indexOf(".") !== -1) {
     return state;
   }

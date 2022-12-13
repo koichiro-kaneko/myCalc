@@ -15,7 +15,7 @@ export default function ButtonPanel(props: {
         <button onClick={() => props.buttonHandler("4")}>4</button>
         <button onClick={() => props.buttonHandler("5")}>5</button>
         <button onClick={() => props.buttonHandler("6")}>6</button>
-        <button>-</button>
+        <button onClick={() => props.buttonHandler("-")}>-</button>
       </div>
       <div>
         <button onClick={() => props.buttonHandler("1")}>1</button>
