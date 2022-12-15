@@ -172,6 +172,7 @@ function handleEqualButton(state: State): State {
 }
 
 function operate(state: State): number {
+  // const current = parseFloat(state.current);
   const current = parseFloat(state.current);
   // 足し算の場合
   if (state.operator === "+") {

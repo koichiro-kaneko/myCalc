@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mycalc-dev-14653-authRole",
+      "UnauthRoleArn": "arn:aws:iam::560203464545:role/amplify-mycalc-dev-14653-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::560203464545:role/amplify-mycalc-dev-14653-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-mycalc-dev-14653-deployment",
+      "UnauthRoleName": "amplify-mycalc-dev-14653-unauthRole",
+      "StackName": "amplify-mycalc-dev-14653",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:560203464545:stack/amplify-mycalc-dev-14653/151f27f0-7c98-11ed-a86e-0a05ca365573",
+      "AmplifyAppId": "ddnegzgr4rl2k"
+    },
+    "categories": {
+      "auth": {
+        "mycalcbea31f79": {}
+      }
+    }
+  }
+}
